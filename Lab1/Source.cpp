@@ -117,7 +117,7 @@ int main()
 		"out vec4 frag_colour;"
 		"uniform sampler2D texture_sampler;"
 		"void main() {"
-		"    frag_colour = texture(texture_sampler, tex_coords);" // * vec4(colour, 1.0); - для triggered
+		"    frag_colour = texture(texture_sampler, tex_coords);" // * vec4(colour, 1.0); - Г¤Г«Гї triggered
 		"}";
 
 	GLuint vs = glCreateShader(GL_VERTEX_SHADER);
