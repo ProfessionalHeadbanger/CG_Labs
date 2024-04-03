@@ -1,0 +1,25 @@
+# Blender 4.1.0 MTL File: 'WOMAN.blend'
+# www.blender.org
+
+newmtl lambert1
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd .\WallsFloors_D.jpg
+map_Ns .\WallsFloor_R.jpg
+map_refl .\WallsFloor_M.jpg
+map_Ke .\WallsFloor_E.jpg
+
+newmtl lambert2
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd .\Objects_D.jpg
+map_Ns .\Objects_R.jpg
+map_refl .\Objects_M.jpg
+map_Ke .\Objects_E.jpg
+map_Bump -bm 1.000000 .\Objects_N.png
